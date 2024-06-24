@@ -7,7 +7,7 @@ library(lubridate)
 
 # Set API key
 options(tigris_use_cache = TRUE)
-census_api_key("your_api_key")
+census_api_key("ff223a3f832673daf9f56bbd4b0f924eea70dd36")
 
 # Fetch median household income by ZIP code area
 income_data <- get_acs(
